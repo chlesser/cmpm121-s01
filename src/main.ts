@@ -24,8 +24,8 @@ button.addEventListener("click", () => {
   // This looks like to a good place to add some logic!
   counter++;
   counterElement.textContent = "" + counter;
-  const randomColor = `rgb(${Math.floor(Math.random() * 255)}, ${
-    Math.floor(Math.random() * 255)
-  }, ${Math.floor(Math.random() * 255)})`;
+  const randomColor = `rgb(${Math.floor(Math.random() * 255)},
+  ${Math.floor(Math.random() * 255)},
+  ${Math.floor(Math.random() * 255)})`;
   background.style.backgroundColor = randomColor;
 });
